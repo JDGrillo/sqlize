@@ -1,0 +1,25 @@
+{
+  "name": "sqlize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDGrillo/sqlize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDGrillo/sqlize/issues"
+  },
+  "homepage": "https://github.com/JDGrillo/sqlize#readme",
+  "dependencies": {
+    "pg": "^7.15.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1"
+  }
+}
