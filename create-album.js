@@ -18,8 +18,5 @@ var questions = [{
 }]
 
 inquirer.prompt(questions).then(answers => {
-    albumNameResult = answers['albumQuestionName']
-    albumYearResult = answers['albumQuestionYear']
-    artistIDResult = answers['artistQuestionID']
-    models.album.create({albumName: albumNameResult, albumYear: albumYearResult, artistID: artistIDResult})
+    models.album.create({albumName: answers['albumQuestionName'], albumYear: answers['albumQuestionYear'], artistID: answers['artistQuestionID']})
 })
